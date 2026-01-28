@@ -11,7 +11,8 @@ export default function Landing() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-indigo-100 to-purple-100 px-6">
+    <div className="min-h-screen flex flex-col justify-center items-center 
+    bg-gradient-to-brfrom-indigo-100 to-purple-100 px-6">
       
       {/* Welcome Section */}
       <h1 className="text-5xl font-bold text-indigo-700 mb-4">
