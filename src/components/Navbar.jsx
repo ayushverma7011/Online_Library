@@ -9,7 +9,7 @@ export default function Navbar() {
 
       <div className="flex gap-6 text-gray-700 font-medium">
         <Link className="hover:text-indigo-600 transition" to="/">Home</Link>
-        <Link className="hover:text-indigo-600 transition" to="/books/all">Browse Books</Link>
+        <Link className="hover:text-indigo-600 transition" to="/books/all">Browse</Link>
         <Link className="hover:text-indigo-600 transition" to="/add">Add Book</Link>
       </div>
     </nav>
