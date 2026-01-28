@@ -3,7 +3,7 @@ import { booksData } from "../data/books";
 import BookCard from "../components/BookCard";
 import { Link } from "react-router-dom";
 
-export default function Home() {
+function Home() {
   const [search, setSearch] = useState("");
 
   const categories = [...new Set(booksData.map(book => book.category))];
@@ -57,3 +57,4 @@ export default function Home() {
     </div>
   );
 }
+export default Home;

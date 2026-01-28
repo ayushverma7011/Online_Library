@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function BookCard({ book }) {
+function BookCard({ book }) {
   return (
     <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1">
       
@@ -29,3 +29,4 @@ export default function BookCard({ book }) {
     </div>
   );
 }
+export default BookCard;
