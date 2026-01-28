@@ -5,13 +5,15 @@ import BrowseBooks from "./components/BrowseBooks";
 import BookDetails from "./components/BookDetails";
 import AddBook from "./components/AddBook";
 import NotFound from "./components/NotFound";
+import Landing from "./components/Landing";
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Landing />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/books/:category" element={<BrowseBooks />} />
         <Route path="/book/:id" element={<BookDetails />} />
         <Route path="/add" element={<AddBook />} />
