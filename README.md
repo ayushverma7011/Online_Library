@@ -1,3 +1,11 @@
+# GitHub Repo Link
+"https://github.com/ayushverma7011/Online_Library/"
+
+# How to run the project
+1. Download the ZIP folder and open the folder in VS Code
+2. We need too install the node_modules using the command npm install
+3. Run the project using the command npm run dev.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +22,4 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
