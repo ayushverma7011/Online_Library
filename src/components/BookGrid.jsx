@@ -1,6 +1,6 @@
 import BookCard from "./BookCard";
 
-export default function BookGrid({ books }) {
+function BookGrid({ books }) {
   if (books.length === 0) {
     return <p className="text-gray-500">No books found.</p>;
   }
@@ -13,3 +13,4 @@ export default function BookGrid({ books }) {
     </div>
   );
 }
+export default BookGrid;

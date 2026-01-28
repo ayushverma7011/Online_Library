@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Landing() {
+function Landing() {
   const categories = [
     "Fiction",
     "Self-Help",
@@ -47,3 +47,4 @@ export default function Landing() {
     </div>
   );
 }
+export default Landing;

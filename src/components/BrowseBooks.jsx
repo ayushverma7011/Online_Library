@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { useState } from "react";
 import BookGrid from "../components/BookGrid";
 
-export default function BrowseBooks() {
+function BrowseBooks() {
   const { category } = useParams();
   const books = useSelector((state) => state.books.list);
   const [search, setSearch] = useState("");
@@ -44,3 +44,4 @@ export default function BrowseBooks() {
     </div>
   );
 }
+export default BrowseBooks;

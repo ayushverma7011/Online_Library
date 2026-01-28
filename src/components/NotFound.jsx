@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 
-export default function NotFound() {
+function NotFound() {
   const location = useLocation();
 
   return (
@@ -19,8 +19,9 @@ export default function NotFound() {
         to="/"
         className="mt-6 px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
       >
-        ⬅ Go Back Home
+        Go Back Home
       </Link>
     </div>
   );
 }
+export default NotFound;
