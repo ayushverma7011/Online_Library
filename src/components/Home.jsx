@@ -24,8 +24,7 @@ export default function Home() {
 
       {/* Search Bar */}
       <div className="mb-6">
-        <input
-          type="text"
+        <input type="text"
           placeholder="🔍 Search by title or author..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -37,11 +36,7 @@ export default function Home() {
       <h2 className="text-xl font-semibold mb-3">Categories</h2>
       <div className="flex flex-wrap gap-3 mb-10">
         {categories.map((cat, index) => (
-          <Link
-            key={index}
-            to={`/books/${cat}`}
-            className="px-5 py-2 bg-gray-900 text-white rounded-full hover:bg-gray-700"
-          >
+          <Link key={index} to={`/books/${cat}`} className="px-5 py-2 bg-gray-900 text-white rounded-full hover:bg-gray-700">
             {cat}
           </Link>
         ))}
