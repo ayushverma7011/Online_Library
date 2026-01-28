@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { addBook } from "../utils/BookSlice";
 import { useNavigate } from "react-router-dom";
 
-export default function AddBook() {
+function AddBook() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -145,10 +145,11 @@ export default function AddBook() {
             type="submit"
             className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition font-semibold"
           >
-            ➕ Add Book
+             Add Book
           </button>
         </form>
       </div>
     </div>
   );
 }
+export default AddBook;

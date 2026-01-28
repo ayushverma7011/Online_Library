@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import Loader from "../components/Loader";
 
-export default function BookDetails() {
+function BookDetails() {
   const { id } = useParams();
   const [loading, setLoading] = useState(true);
 
@@ -93,3 +93,4 @@ export default function BookDetails() {
     </div>
   );
 }
+export default BookDetails;
